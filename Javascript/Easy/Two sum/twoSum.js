@@ -21,3 +21,5 @@ let twoSum = function(nums, target) {
     }
     return output;
 };
+
+module.exports = twoSum;

@@ -1,4 +1,4 @@
-import { twoSum } from './twoSum';
+const twoSum = require('./twoSum');
 
 test('returns indices of the two numbers such that they add up to a specific target', () => {
 	expect(twoSum([2, 7, 11, 15], 9)).toEqual([0, 1]);

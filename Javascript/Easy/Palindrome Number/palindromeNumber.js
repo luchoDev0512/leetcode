@@ -2,7 +2,7 @@
  * @param {number} x
  * @return {boolean}
  */
-var isPalindrome = function(x) {
+const isPalindrome = function(x) {
     let number = x.toString();
     let numberSize = number.length - 1;;
     let isPal = true;
@@ -14,4 +14,4 @@ var isPalindrome = function(x) {
    return isPal;
 };
 
-isPalindrome(121);
+module.exports = isPalindrome;
